@@ -1,0 +1,18 @@
+{
+  "name": "CTUET SCHEDULE ICS EXPORT",
+  "version": "0.0.0",
+  "description": "Crawl schedule from my college website <Can Tho university of technology> and convert to ics file that import to google calendar ",
+  "main": "main.js",
+  "repository": "",
+  "author": "Hieu Truong <minhhieutruong226@gmail.com>",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "ics": "^2.41.0"
+  },
+  "license": "MIT",
+  "type": "module"
+}
