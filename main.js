@@ -77,7 +77,7 @@ function get_ics_array_data(data){
                         $(tdContent).find('div').find('p').each((pIndex,pContent)=>{
                             if(pIndex==1){
                                 let startTime = timeArr[$(pContent).text().trim().split('\n')[0].slice(6,100).split(' - ')[0]].start
-                                let endTime = timeArr[$(pContent).text().trim().split('\n')[0].slice(6,100).split(' - ')[0]].end
+                                let endTime = timeArr[$(pContent).text().trim().split('\n')[0].slice(6,100).split(' - ')[1]].end
                                 ics_array_data.push({
                                     title: subject,
                                     location: $(pContent).text().trim().split('\n')[1].trim(),
